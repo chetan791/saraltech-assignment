@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  height: 90vh;
+  margin: 0;
+  background-size: cover;
+  color: black;
+}
+
+/* Header styles */
+#header {
+  background-color: #2b3784;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #df142d;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    background-image: url("https://w0.peakpx.com/wallpaper/222/412/HD-wallpaper-spiderman-2099-spider-man-across-the-spider-verse-spider-man-across-the-spider-verse-spiderman-miles-morales-spiderman-2099-superheroes-artwork-2023-movies-movies.jpg");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    text-align: center;
+  }
+}
